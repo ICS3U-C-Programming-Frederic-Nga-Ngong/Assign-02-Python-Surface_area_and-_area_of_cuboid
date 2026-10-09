@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Created By: Fred
 # Date: Feb 2008 18
-# Calculates cost of producing a pizza
+# Calculates surface area and volume of a cuboid
 def main():
 
     print("Hello")
@@ -25,10 +25,10 @@ def main():
     Volume = Length * Width * Height
 
     # calculate the surface area
-    Surface_area = 2 * 0(Length * Width + Length * Height + Width * Height)
+    Surface_area = 2 * (Length * Width + Length * Height + Width * Height)
 
     # Display surface area
-    print("the Surface area of the cuboid is {}".format(Surface_area))
+    print("The Surface area of the cuboid is {}".format(Surface_area))
 
     # Display volume
     print("The volume of the cuboid is {}".format(Volume))
