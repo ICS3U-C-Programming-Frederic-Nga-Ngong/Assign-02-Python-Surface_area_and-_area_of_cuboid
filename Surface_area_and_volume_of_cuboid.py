@@ -3,7 +3,7 @@
 # Date: Feb 2008 18
 # Calculates surface area and volume of a cuboid
 def main():
-
+    
     print("Hello")
     print("How are you doing ?")
     print(
@@ -18,7 +18,7 @@ def main():
     # Get the width of the cuboid
     Width = float(input("Enter the width of the cuboid (m):"))
 
-    # Get the width of the cuboid
+    # Get the Height of the cuboid
     Height = float(input("Enter the height of the cuboid (m):"))
 
     # Calculate the volume
@@ -28,10 +28,10 @@ def main():
     Surface_area = 2 * (Length * Width + Length * Height + Width * Height)
 
     # Display surface area
-    print("The Surface area of the cuboid is {;.2f} m²".format(Surface_area))
+    print("The Surface area of the cuboid is {:.2f} m²".format(Surface_area))
 
     # Display volume
-    print("The volume of the cuboid is {;.2f} m³".format(Volume))
+    print("The volume of the cuboid is {:.2f} m³".format(Volume))
 
 
 if __name__ == "__main__":
