@@ -3,7 +3,7 @@
 # Date: Feb 2008 18
 # Calculates surface area and volume of a cuboid
 def main():
-    
+
     print("Hello")
     print("How are you doing ?")
     print(
